@@ -23,7 +23,7 @@ Code: run_analysis.R
 
 Code is well documented to explain the process used. 
 
-codebook.MD included additional transformations included. 
+codebook.MD includes additional transformations. Other meta-data included in features-info, feature and activity labels are essential. 
 
 Required Outputs generated:
 
