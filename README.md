@@ -31,7 +31,7 @@ Physical file : TidyMDgrouped.CSV - displays data broken down by participants an
 
 Addional Verification outputs generated: 
 
-Additional physical files that were generated to verify the various questions are also uploaded.
+Additional physical files that were generated to verify the results of each section
 
 Thank you. 
 
