@@ -164,7 +164,7 @@ names(MD4) <- gsub("Mag", "Magnitude", names(MD4))
 #### Now want to change the Participants currently displayed as numbers 1, 2, 5 etc to something more verbose
 #####
 
-for (i in 1:28) {
+for (i in 1:30) {
 MD4$participants[MD4$participants == i] <- paste("Participant", as.character(i))
 }
 
@@ -186,7 +186,7 @@ TidyMDgrouped <- TidyMD[,lapply(.SD,mean), by='participants,activities']
 
 ### Finally writing a physical file with the data grouped by participant and activities. 
 
-write.table(TidyMDgrouped, file="TidyMDgrouped.csv", row.names=FALSE)
+write.table(TidyMDgrouped,file="TidyMDgroupedfinal.csv", row.names=FALSE)
 
  
 ################ Completed Assignment ########################################
